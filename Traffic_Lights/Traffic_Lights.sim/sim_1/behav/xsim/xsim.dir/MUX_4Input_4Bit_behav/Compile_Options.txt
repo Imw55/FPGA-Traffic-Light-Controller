@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "MUX_4Input_4Bit_behav" "xil_defaultlib.MUX_4Input_4Bit" "xil_defaultlib.glbl" -log "elaborate.log" 

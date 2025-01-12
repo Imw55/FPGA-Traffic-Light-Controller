@@ -1,0 +1,22 @@
+# Define I/O standards
+set_property IOSTANDARD LVCMOS33 [get_ports MSTL[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports MSTL[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports MSTL[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports SSTL[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports SSTL[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports SSTL[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports Reset] 
+set_property IOSTANDARD LVCMOS33 [get_ports Sensor]   
+set_property IOSTANDARD LVCMOS33 [get_ports CLK]  
+
+set_property PACKAGE_PIN M15 [get_ports MSTL[0]]
+set_property PACKAGE_PIN M14 [get_ports MSTL[1]]
+set_property PACKAGE_PIN V15 [get_ports MSTL[2]]
+set_property PACKAGE_PIN D18 [get_ports SSTL[0]]
+set_property PACKAGE_PIN G14 [get_ports SSTL[1]]
+set_property PACKAGE_PIN U15 [get_ports SSTL[2]]
+set_property PACKAGE_PIN K18 [get_ports Reset]
+set_property PACKAGE_PIN G15 [get_ports Sensor]
+set_property PACKAGE_PIN K17 [get_ports CLK]
+
+create_clock -period 8 [get_ports CLK]

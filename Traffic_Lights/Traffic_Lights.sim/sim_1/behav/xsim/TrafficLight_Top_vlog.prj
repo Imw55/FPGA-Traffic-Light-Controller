@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Traffic_Lights.srcs/sources_1/new/Comparator_NBit.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/Counter_15to0.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/DFF_ER.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/FSM_Kernel.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/MUX_4Input_1Bit.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/MUX_4Input_4Bit.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/clk_div.v" \
+"../../../../Traffic_Lights.srcs/sources_1/new/TrafficLight_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

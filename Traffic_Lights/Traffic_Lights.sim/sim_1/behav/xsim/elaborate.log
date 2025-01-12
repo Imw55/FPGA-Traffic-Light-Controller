@@ -1,0 +1,21 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TrafficLight_Top_behav xil_defaultlib.TrafficLight_Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM_Kernel
+Compiling module xil_defaultlib.MUX_4Input_1Bit
+Compiling module xil_defaultlib.MUX_4Input_4Bit_default
+Compiling module xil_defaultlib.Comparator_NBit
+Compiling module xil_defaultlib.DFF_ER
+Compiling module xil_defaultlib.Counter_15to0_default
+Compiling module xil_defaultlib.clk_div(DIVISOR=1250000)
+Compiling module xil_defaultlib.TrafficLight_Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TrafficLight_Top_behav
